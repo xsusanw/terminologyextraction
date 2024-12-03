@@ -1,10 +1,10 @@
-from newsapi import NewsApiClient
+import eventregistry as e
 import clickLink as cl
 import threading
 
-newsapi = NewsApiClient(api_key='0c1e4440607a4575970b4540ebc77e8f')
 
-query = input('Type a query: ')
+
+q = input('Type a query: ')
 outFile = input('What is the name of the output file you want to store it in?: ')
 artNum = ""
 while artNum.isdigit()==False:
@@ -16,16 +16,97 @@ domains = 'apnews.com, reuters.com, bbc.com, npr.org, pbs.org, bloomberg.com, ax
 
 
 
-allArticles = newsapi.get_everything(q=query,page=pagenum,domains=domains)
-print(len(allArticles['articles']))
+er = e.EventRegistry(apiKey = "57ca642b-b78a-426c-b84e-6487953609ed")
+query = {
+  "$query": {
+    "$and": [
+      {
+        "keyword": q,
+        "keywordSearchMode": "simple"
+      },
+      {
+        "$or": [
+          {
+            "sourceUri": "apnews.com"
+          },
+          {
+            "sourceUri": "reuters.com"
+          },
+          {
+            "sourceUri": "bbc.com"
+          },
+          {
+            "sourceUri": "npr.org"
+          },
+          {
+            "sourceUri": "pb.pl"
+          },
+          {
+            "sourceUri": "bloomberg.com"
+          },
+          {
+            "sourceUri": "axios.com"
+          },
+          {
+            "sourceUri": "thehill.com"
+          },
+          {
+            "sourceUri": "politico.com"
+          },
+          {
+            "sourceUri": "newsweek.com"
+          },
+          {
+            "sourceUri": "time.com"
+          },
+          {
+            "sourceUri": "usatoday.com"
+          },
+          {
+            "sourceUri": "abcnews.go.com"
+          },
+          {
+            "sourceUri": "cbsnews.com"
+          },
+          {
+            "sourceUri": "marketwatch.com"
+          },
+          {
+            "sourceUri": "fortune.com"
+          },
+          {
+            "sourceUri": "businessinsider.com"
+          },
+          {
+            "sourceUri": "theatlantic.com"
+          }
+        ]
+      }
+    ]
+  },
+  "$filter": {
+    "forceMaxDataTimeWindow": "31"
+  }
+}
+q = e.QueryArticlesIter.initWithComplexQuery(query)
+allArticles = []
+for article in q.execQuery(er, maxItems = 2000):
+    allArticles.append(article['url'])
+    print(article['url'])
+
+
+
+
+
+
 allContent = {}
 Threads = []
 successful_count = 0
 lock = threading.Lock()
 
-def scrapeAndStore (article):
+def scrapeAndStore (url):
     global successful_count
-    url = article['url']
+    """url = article['url']"""
     content = cl.scrapeLinks(url)
     if content!=None:
         with lock:
@@ -35,14 +116,10 @@ def scrapeAndStore (article):
 
 i=0
 while successful_count<artNum:
-    if i<len(allArticles['articles']):
-        article = allArticles['articles'][i]
+    if i<len(allArticles):
+        article = allArticles[i]
     else:
-        i=0
-        pagenum+=1
-        allArticles = newsapi.get_everything(q=query,page=pagenum, domains=domains)
-        article = allArticles['articles'][i]
-        print(f'len of all articles:{len(allArticles['articles'])}')
+        break
     try:
         if threading.active_count() <= maxthreads:  # Limit the number of active threads
             thread = threading.Thread(target=scrapeAndStore, args=(article,))
