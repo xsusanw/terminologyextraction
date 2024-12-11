@@ -67,29 +67,10 @@ Only one word for each concept
 
 
     
-
-
-
-
-def main():
-    #extractor = pke.unsupervised.YAKE()
-    allText = dc.cleantext('../corpuses/test.txt')
-    sentences = dc.splitLines(allText)
-    sw = set(stopwords.words('english'))
-    news_stopwords = set([
-    "breaking", "news", "journal", "times", "post", "herald", "gazette", 
-    "daily", "weekly", "monthly", "article", "editorial", "press", "media", 
-    "report", "reporting", "publication", "columnist", "coverage", "network", 
-    "wire", "agency", "source", "sources", "headline", "reuters", "associated", 
-    "ap", "nytimes", "cnn", "bbc", "fox", "npr", "bloomberg", "politico", 
-    "wsj", "guardian", "telegraph", "tribune"])
-    combinedStopwords = sw.union(news_stopwords)
-    sentences = [line.translate(str.maketrans('', '', string.punctuation)).split() for line in sentences]
-    w2v = Word2Vec(sentences = sentences)
-    KE = KeywordExtractor(stopwords=combinedStopwords)
+def yakeRanking (w2v,KE, allText):
+    
     yakekeys = np.array(yakeKeywords(KE,allText),dtype = object)
     flat = [item for sublist in yakekeys for item in sublist]
-    print(flat[1])
     rank = sorted(flat,key = lambda x:x[1])
     kw = {}
     w2vSims = {}
@@ -141,6 +122,35 @@ def main():
                     w2vSims[i]=product
     rankwtv = sorted(w2vSims.items(), key=lambda x: x[1], reverse = True)
     print(rankwtv)
+    return rankwtv
+
+
+
+
+def main():
+    #extractor = pke.unsupervised.YAKE()
+    allText = dc.cleantext('../corpuses/training.txt')
+    sentences = dc.splitLines(allText)
+    sw = set(stopwords.words('english'))
+    news_stopwords = set([
+    "breaking", "news", "journal", "times", "post", "herald", "gazette", 
+    "daily", "weekly", "monthly", "article", "editorial", "press", "media", 
+    "report", "reporting", "publication", "columnist", "coverage", "network", 
+    "wire", "agency", "source", "sources", "headline", "reuters", "associated", 
+    "ap", "nytimes", "cnn", "bbc", "fox", "npr", "bloomberg", "politico", 
+    "wsj", "guardian", "telegraph", "tribune"])
+    combinedStopwords = sw.union(news_stopwords)
+    sentences = [line.translate(str.maketrans('', '', string.punctuation)).split() for line in sentences]
+    w2v = Word2Vec(sentences = sentences)
+    KE = KeywordExtractor(stopwords=combinedStopwords)
+    allIndivArticles = dc.cleanIndivArticle('../corpuses/test.txt')
+    with open('../results/results2.txt',"w") as outp:
+        for i in range(15):
+            outp.write(f'article {i+1}:\n')
+            rankwtv = yakeRanking(w2v,KE, allIndivArticles[i])
+            for elem in rankwtv:
+                outp.write(f'{elem[0]}: {elem[1]}\n\n')
+        
 
     
     
