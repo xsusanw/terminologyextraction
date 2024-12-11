@@ -119,7 +119,7 @@ def yakeRanking (w2v,KE, allText):
                                 product += w2v.wv.similarity(wordi,wordj)
                             else:
                                 continue
-                    w2vSims[i]=product
+                    w2vSims[i]=product*kw[i]
     rankwtv = sorted(w2vSims.items(), key=lambda x: x[1], reverse = True)
     print(rankwtv)
     return rankwtv
@@ -145,11 +145,11 @@ def main():
     KE = KeywordExtractor(stopwords=combinedStopwords)
     allIndivArticles = dc.cleanIndivArticle('../corpuses/test.txt')
     with open('../results/results2.txt',"w") as outp:
-        for i in range(15):
-            outp.write(f'article {i+1}:\n')
+        for i in range(len(allIndivArticles)):
+            outp.write(f'\n article {i+1}:\n')
             rankwtv = yakeRanking(w2v,KE, allIndivArticles[i])
             for elem in rankwtv:
-                outp.write(f'{elem[0]}: {elem[1]}\n\n')
+                outp.write(f'{elem[0]}: {elem[1]}\n')
         
 
     

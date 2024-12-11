@@ -1,411 +1,220 @@
-article 1:
-French magazine Marie: 75.79699518531561
 
-actress Eva Longoria: 72.55857403576374
-
-Hollywood actress Eva: 72.39134691655636
-
-magazine Marie Claire: 71.58091961592436
-
-Marie Claire interview: 63.93201083689928
-
-Hollywood actress: 50.08987006545067
-
-Eva Longoria: 50.079790249466896
-
-actress Eva: 50.00498731434345
-
-November cover story: 49.2530268765986
-
-Marie Claire: 48.77523938566446
-
-Democratic National Convention: 41.11628778651357
-
-family no longer: 34.364414205774665
-
-Democratic Party politics: 32.326292242854834
-
-longer lives: 30.609367599710822
-
-splitting time: 27.56952266395092
-
-Desperate Housewives star: 27.042572431266308
-
-Longoria: 26.205297589302063
-
-United States: 21.40283889323473
-
-Donald Trump: 13.244446344673634
-
-Desperate Housewives: 0
-
-article 2:
-named Donald Trumped: 13.294316720217466
-
-one Donald Trump: 12.914505701512098
-
-number one Donald: 11.753864828497171
-
-number one Trump: 11.613525345921516
-
-one Trump impersonator: 9.604474008083344
-
-Donald Trump: 7.8867738507688046
-
-Donald Trump impersonator: 7.8867738507688046
-
-President-elect Donald Trump: 7.8867738507688046
-
-Donald Trump impressionist: 7.8867738507688046
-
-stop ringing: 7.388231851160526
-
-Osman said demand: 7.1051922254264355
-
-Trump: 4.2507468312978745
-
-Trump impersonator: 4.2507468312978745
-
-Trump impressionist: 4.2507468312978745
-
-Donald: 4.231299798935652
-
-Donald Trumped: 4.231299798935652
-
-President-elect Donald: 4.231299798935652
-
-Isle of Wight: 1.003624178469181
-
-said: 0.8005827777087688
-
-Osman: 0
-
-article 3:
-Kamala Harris tied: 29.779437262564898
-
-CNBC Latino poll: 26.428322000429034
-
-polls showed Trump: 24.32273703813553
-
-Exit Poll: 24.16525612026453
-
-Kamala Harris: 17.99858431890607
-
-Many polls: 15.206951964646578
-
-polls got: 13.13620163872838
-
-national polls: 12.501572042703629
-
-Donald Trump: 11.48863048106432
-
-poll: 10.803242027759552
-
-presidential: 9.824270084500313
-
-fully evaluate: 9.154739663004875
-
-polls: 9.05121973901987
-
-Harris: 8.905481286346912
-
-voters: 8.829098619520664
-
-polling: 8.597800500690937
-
-election: 8.077398868277669
-
-NBC: 7.826095122843981
-
-Trump: 5.334533207118511
-
-national: 3.6220116540789604
-
-article 4:
-defeated Democrat Kamala: 53.30666805803776
-
-Democrat Kamala Harris: 52.73889388889074
-
-Donald Trump victory: 44.72831292450428
-
-Donald Trump decisive: 43.55874453485012
-
-Trump election victory: 41.8915016874671
-
-Republican Donald Trump: 40.5245923101902
-
-Donald Trump supporters: 38.57212343811989
-
-Kamala Harris: 35.562076933681965
-
-since Donald Trump: 33.934218272566795
-
-Donald Trump took: 32.01787579804659
-
-Donald Trump election: 31.906042031943798
-
-Donald Trump: 23.693127170205116
-
-President-elect Donald Trump: 23.693127170205116
-
-November election: 21.92958264797926
-
-White House: 21.037909723818302
-
-president: 16.946804508566856
-
-Donald: 12.725480943918228
-
-Trump: 11.56291900575161
-
-election: 9.104218997061253
-
-president-elect: 0
-
-article 5:
-young Latino men: 46.55105919390917
-
-Latino men voted: 44.90738485753536
-
-Latino voters moved: 43.07706321775913
-
-moved toward Republican: 39.84472029656172
-
-Black and Latino: 37.766290456056595
-
-Black men: 34.37976912409067
-
-toward Republican Donald: 32.69953731447458
-
-Latino men: 30.818069711327553
-
-Latino voters: 29.903208062052727
-
-reelected Donald Trump: 28.496528670191765
-
-Republican Donald Trump: 24.918488159775734
-
-Black: 19.433327488601208
-
-Republican Donald: 18.63614945113659
-
-men: 16.515167340636253
-
-Latino: 15.925918489694595
-
-voters: 15.325343266129494
-
-Donald Trump: 14.74648903310299
-
-said Trump: 8.823930364102125
-
-Trump: 7.7716836631298065
-
-said: 0.9627794437110424
-
-article 6:
-first Trump administration: 15.976591425016522
-
-Senate Republicans: 15.336337737739086
-
-House Republicans: 14.568102326244116
-
-Trump administration: 11.513952126726508
-
-first Trump: 9.971519166603684
-
-Democrats: 9.536690771579742
-
-Senate: 8.909024320542812
-
-Johnson: 7.86604966968298
-
-Republicans: 7.7727329432964325
-
-House: 7.752987798303366
-
-first: 5.929052080959082
-
-Trump: 4.442386833950877
-
-WOLF Trump: 4.442386833950877
-
-would: 4.152166485786438
-
-going: 4.0910395830869675
-
-’re going: 4.0910395830869675
-
-tax: 3.4333669263869524
-
-’re: 0
-
-WOLF: 0
-
-Matters newsletter: -1.94500220566988
-
-article 7:
-Sun Belt battlegrounds: 33.7271929718554
-
-Democrats’ dire warnings: 30.01069699972868
-
-President Kamala Harris: 24.19345147535205
-
-Democrats’ dire: 23.085764184594154
-
-Americans’ dissatisfaction: 22.13025811314583
-
-North Carolina: 15.71692318841815
-
-GOP: 13.326963648200035
-
-White House: 13.212884314358234
-
-Sen: 12.55097582936287
-
-Democrats: 11.434213757514954
-
-Trump would: 10.615384416654706
-
-win: 10.60594654083252
-
-Biden: 10.054700002074242
-
-party: 9.480973079800606
-
-states: 8.864617634564638
-
-voters: 8.240008026361465
-
-Harris: 7.730454292148352
-
-Trump: 7.373005209490657
-
-House: 7.112594597041607
-
-would: 3.422217968851328
-
-article 8:
-Elon Musk donated: 33.033604150637984
-
-Trump ’s campaign: 28.465620905160904
-
-Trump appointed Musk: 27.755479238927364
-
-Elon Musk made: 27.607099821791053
-
-governmentSilicon Valley poured: 25.836280971765518
-
-Elon Musk: 20.73267394118011
-
-influence governmentSilicon Valley: 19.92251767218113
-
-Federal Election Commission: 19.629125641658902
-
-Donald Trump: 15.615465898066759
-
-political campaign: 15.226195879280567
-
-tech: 15.077544391155243
-
-Super Pacs: 14.347820922732353
-
-crypto: 13.830241121351719
-
-Musk: 10.483971752226353
-
-campaign: 9.437247887253761
-
-Trump: 6.515726283192635
-
-political: 6.320186786353588
-
-Harris: 6.275358263403177
-
-election: 4.119595475494862
-
-FEC: 0
-
-article 9:
-Vice President Kamala: 26.727424984797835
-
-decisive election victory: 25.604502126574516
-
-President Kamala Harris: 24.44293011724949
-
-President Joe Biden: 24.074243283830583
-
-rejection of incumbents: 19.57976534217596
-
-decisive election: 17.23808206245303
-
-Donald Trump: 16.45541606284678
-
-things a global: 15.400777860544622
-
-global rejection: 14.543427471071482
-
-economy: 8.860738154500723
-
-Trump: 7.927354170009494
-
-economic: 7.776315126568079
-
-still: 7.199690040200949
-
-Americans: 6.303112905472517
-
-year: 6.286187306046486
-
-years: 6.262040730565786
-
-America: 4.395575348287821
-
-American: 2.9364966824650764
-
-according: 1.8742343913763762
-
-n’t: 0
-
-article 10:
-outside investigator said: 27.309298742562532
-
-outside investigator: 22.843408204615116
-
-Secretary of State: 22.274353735148907
-
-Colorado voting system: 20.955517403781414
-
-Attorney Beth Doherty: 19.9365796148777
-
-series of inadvertent: 16.39055112749338
-
-Colorado voting: 15.171190202236176
-
-Secretary: 11.07380536943674
-
-unforeseen events: 10.224654793739319
-
-voting system passwords: 9.541140414774418
-
-State Jena Griswold: 9.239231035113335
-
-State Jena: 9.239231035113335
-
-State: 9.239231035113335
-
-Beth Doherty Quinn: 8.83893272280693
-
-posted: 7.621588133275509
-
-Doherty Quinn suggested: 7.53166314586997
-
-Doherty Quinn said: 5.732923876494169
-
-inadvertent and unforeseen: 4.628301803022623
-
-Doherty Quinn: 0
-
-passwords: 0
-
-article 11:
+ article 1:
+French magazine Marie: 66.4954351668234
+actress Eva Longoria: 65.23536840780648
+Hollywood actress Eva: 65.04439060311799
+magazine Marie Claire: 62.99338748253286
+Marie Claire interview: 55.97840260209773
+Hollywood actress: 46.19637819195582
+actress Eva: 45.39335856358196
+Eva Longoria: 44.81083442524737
+November cover story: 44.364060718213274
+Marie Claire: 42.5471649423835
+Democratic National Convention: 37.11700263186955
+family no longer: 29.342259665336872
+Democratic Party politics: 28.65450432154401
+longer lives: 27.08107407452708
+splitting time: 25.49043039193672
+Desperate Housewives star: 25.100667987966276
+Longoria: 23.54463405454051
+United States: 19.250779644433166
+Donald Trump: 11.761709709124538
+Desperate Housewives: 0.0
+
+ article 2:
+one Donald Trump: 11.591939729164636
+named Donald Trumped: 11.377198642329255
+number one Donald: 11.346268219614826
+number one Trump: 10.996990836175499
+one Trump impersonator: 8.782068041877352
+stop ringing: 8.580861676360142
+Osman said demand: 6.9789149933843575
+Donald Trump impressionist: 6.718263508400831
+President-elect Donald Trump: 6.717234957008223
+Donald Trump impersonator: 6.713531834218398
+Donald Trump: 6.713358088410069
+President-elect Donald: 3.736712734194204
+Donald Trumped: 3.7330497271790173
+Donald: 3.724381186104416
+Trump impressionist: 3.506631304622708
+Trump impersonator: 3.492057917441537
+Trump: 3.491702614976132
+said: 1.0533015119758264
+Isle of Wight: 0.8551131874752287
+Osman: 0.0
+
+ article 3:
+Kamala Harris tied: 28.215499295468014
+CNBC Latino poll: 26.26517654800946
+polls showed Trump: 23.852839081297823
+Exit Poll: 22.24861182290187
+Kamala Harris: 17.038014984804295
+Many polls: 16.27828185923086
+polls got: 12.433610148166192
+national polls: 12.304049037063972
+Donald Trump: 11.509597718736096
+poll: 10.178003369042106
+polling: 8.916986333367316
+polls: 8.80848405519515
+presidential: 8.73997316590582
+Harris: 8.640730901066082
+voters: 8.63367936084886
+fully evaluate: 8.427560772655301
+election: 7.09152546805751
+NBC: 7.000262988032372
+Trump: 5.198673509256025
+national: 3.735838285716782
+
+ article 4:
+defeated Democrat Kamala: 49.19508946272077
+Democrat Kamala Harris: 48.763126056355546
+Donald Trump victory: 41.933161767273845
+Donald Trump decisive: 41.47751492687592
+Trump election victory: 38.91195251858975
+Republican Donald Trump: 37.4877838281178
+Donald Trump supporters: 36.33967801102641
+Kamala Harris: 32.80032863166477
+since Donald Trump: 31.888863636736577
+Donald Trump took: 30.141660993559984
+Donald Trump election: 29.151337663582567
+Donald Trump: 22.244006734060726
+President-elect Donald Trump: 22.004523095562533
+November election: 20.120735955840985
+White House: 19.734393638274113
+president: 16.817360122559087
+Donald: 11.76171384626743
+Trump: 10.734585278442182
+election: 7.98329539683776
+president-elect: 0.0
+
+ article 5:
+young Latino men: 45.501656814521986
+Latino men voted: 43.03879725231815
+Latino voters moved: 39.938985678113795
+Black and Latino: 37.13879763416728
+moved toward Republican: 36.20128448191064
+Black men: 32.92541390444239
+toward Republican Donald: 30.56303006307647
+Latino men: 29.79266269009504
+Latino voters: 28.881329418293053
+reelected Donald Trump: 23.727012031707062
+Republican Donald Trump: 23.200033052392573
+Black: 18.50910825811815
+Republican Donald: 17.167858875813813
+men: 15.922379104205493
+Latino: 15.533203647722647
+voters: 14.694264036203307
+Donald Trump: 11.966387614000935
+said Trump: 7.375371640712688
+Trump: 5.971828481643472
+said: 1.3066202767945296
+
+ article 6:
+first Trump administration: 15.48943817351455
+Senate Republicans: 15.162427750932316
+House Republicans: 14.540521750624524
+Trump administration: 10.986725059094923
+first Trump: 9.706822438245883
+Senate: 8.631447411552701
+Democrats: 8.599001742671394
+Johnson: 7.796705671774921
+House: 7.576652679534114
+Republicans: 7.494156608388605
+first: 6.020189534818068
+’re going: 4.203911654433769
+going: 4.203033651385053
+WOLF Trump: 4.091571250072639
+Trump: 4.085107745432517
+would: 3.8742451877424133
+tax: 3.221560137419808
+’re: 0.0
+WOLF: 0.0
+Matters newsletter: -2.254995850624689
+
+ article 7:
+Sun Belt battlegrounds: 33.5404651491981
+Democrats’ dire warnings: 30.40406184076802
+Democrats’ dire: 23.49502296440849
+Americans’ dissatisfaction: 23.140796679951713
+President Kamala Harris: 22.034840077302235
+North Carolina: 16.35220106114736
+GOP: 12.983416499668248
+White House: 12.942921903174945
+Sen: 12.611503102614705
+Democrats: 10.785350113670415
+Trump would: 10.460598224795719
+win: 10.13003809944166
+Biden: 9.369751252293916
+party: 9.194753747090358
+states: 8.67853993761822
+voters: 7.671014863590648
+Harris: 7.264967302720377
+Trump: 6.892232252351178
+House: 6.863690390610534
+would: 3.1978192131043244
+
+ article 8:
+Elon Musk donated: 33.01805281589449
+Trump appointed Musk: 27.61575720968426
+Elon Musk made: 27.503492496238458
+Trump ’s campaign: 25.18275887495485
+governmentSilicon Valley poured: 24.654260167113595
+Elon Musk: 20.512912504211236
+influence governmentSilicon Valley: 18.155816199763322
+Federal Election Commission: 17.7243592275819
+Donald Trump: 15.252511211896529
+political campaign: 14.831227624395927
+Super Pacs: 14.132573293085091
+tech: 14.041469275745044
+crypto: 11.83857547734585
+Musk: 10.141935952848698
+campaign: 9.242512235592086
+political: 6.165992763846354
+Trump: 6.143281239444244
+Harris: 6.104243918978893
+election: 3.973636464588636
+FEC: 0.0
+
+ article 9:
+Vice President Kamala: 28.182844526645674
+decisive election victory: 25.860049316638186
+President Kamala Harris: 25.67516322947281
+President Joe Biden: 25.62278155790227
+rejection of incumbents: 21.13975394845243
+decisive election: 17.113419939857952
+Donald Trump: 16.835013567854617
+global rejection: 15.762789251642499
+things a global: 14.761200786314125
+Trump: 8.090720723013979
+economy: 7.96368543366769
+still: 6.925661507752233
+year: 6.613640518893606
+economic: 6.547090718979863
+years: 6.542251165699689
+Americans: 5.965488102087419
+America: 4.886152849024251
+American: 3.1171607299125896
+according: 2.1310463263381743
+n’t: 0.0
+
+ article 10:
+outside investigator said: 26.450744233249072
+outside investigator: 22.218481548480945
+Secretary of State: 21.437569592522927
+Colorado voting system: 19.35788359037414
+Attorney Beth Doherty: 18.271505888644338
+series of inadvertent: 16.23308176667298
+Colorado voting: 14.205898984161747
+unforeseen events: 10.76935823678796
+Secretary: 10.146686342226902
+State Jena: 9.281389467418194
+State: 9.281389467418194
+voting system passwords: 8.78848800582142
+Beth Doherty Quinn: 8.284734428858954
+State Jena Griswold: 7.797261021469404
+Doherty Quinn suggested: 7.404530991826702
+posted: 6.276977332197555
+Doherty Quinn said: 5.248214396942702
+inadvertent and unforeseen: 5.0505318741579295
+Doherty Quinn: 0.0
+passwords: 0.0
